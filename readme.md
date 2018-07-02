@@ -21,6 +21,13 @@ instead of 1) git add and 2) git commit
 
 remove old git stuff
 rm -rf .git
+add the new one
+git init
+git add .
+git commit -m "Init commit"
+git remote add origin git@github.com:ydarlet/react-boilerplate.git
+Then push with u flag
+git push -u origin master
 
 # Other stuff
 
